@@ -1,0 +1,198 @@
+{
+  "menus": [
+    {
+      "title": "Product",
+      "submenus": [
+        {
+          "new": [
+            {
+              "title": "Monthly Product Update",
+              "subtitle": "Read about Hopin product updates."
+            }
+          ],
+          "products": [
+            {
+              "icon": "virtual_venue_icon.png",
+              "title": "Virtual Menu",
+              "subtitle": "Create incredible experiences for your digital audience."
+            },
+            {
+              "icon": "studio_icon.png",
+              "title": "Studio",
+              "subtitle": "Produce professional, high-quality streams with ease."
+            },
+            {
+              "icon": "event_marketing_icon.png",
+              "title": "Event marketing Menu",
+              "subtitle": "Promote beautiful landing pages that drive registrations."
+            },
+            {
+              "icon": "onsite_icon.png",
+              "title": "Onsite",
+              "subtitle": "Manage in-person attendee and exhibitor engagement."
+            }
+          ],
+          "platforms": [
+            {
+              "icon": "integrations_icon.png",
+              "title": "Integrations",
+              "subtitle": "Connect Hopin with your favorite event apps and services."
+            },
+            {
+              "icon": "security_icon.png",
+              "title": "Security",
+              "subtitle": "Protect your events with enterprise-grade security."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Solutions",
+      "submenus": [
+        {
+          "new": [
+            {
+              "title": "Monthly Product Update",
+              "subtitle": "Read about Hopin product updates."
+            }
+          ],
+          "products": [
+            {
+              "icon": "virtual_venue_icon.png",
+              "title": "Virtual Menu",
+              "subtitle": "Create incredible experiences for your digital audience."
+            },
+            {
+              "icon": "studio_icon.png",
+              "title": "Studio",
+              "subtitle": "Produce professional, high-quality streams with ease."
+            },
+            {
+              "icon": "event_marketing_icon.png",
+              "title": "Event marketing Menu",
+              "subtitle": "Promote beautiful landing pages that drive registrations."
+            },
+            {
+              "icon": "onsite_icon.png",
+              "title": "Onsite",
+              "subtitle": "Manage in-person attendee and exhibitor engagement."
+            }
+          ],
+          "platforms": [
+            {
+              "icon": "integrations_icon.png",
+              "title": "Integrations",
+              "subtitle": "Connect Hopin with your favorite event apps and services."
+            },
+            {
+              "icon": "security_icon.png",
+              "title": "Security",
+              "subtitle": "Protect your events with enterprise-grade security."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pricing"
+    },
+    {
+      "title": "Explore Events"
+    },
+    {
+      "title": "Resources",
+      "submenus": [
+        {
+          "new": [
+            {
+              "title": "Monthly Product Update",
+              "subtitle": "Read about Hopin product updates."
+            }
+          ],
+          "products": [
+            {
+              "icon": "virtual_venue_icon.png",
+              "title": "Virtual Menu",
+              "subtitle": "Create incredible experiences for your digital audience."
+            },
+            {
+              "icon": "studio_icon.png",
+              "title": "Studio",
+              "subtitle": "Produce professional, high-quality streams with ease."
+            },
+            {
+              "icon": "event_marketing_icon.png",
+              "title": "Event marketing Menu",
+              "subtitle": "Promote beautiful landing pages that drive registrations."
+            },
+            {
+              "icon": "onsite_icon.png",
+              "title": "Onsite",
+              "subtitle": "Manage in-person attendee and exhibitor engagement."
+            }
+          ],
+          "platforms": [
+            {
+              "icon": "integrations_icon.png",
+              "title": "Integrations",
+              "subtitle": "Connect Hopin with your favorite event apps and services."
+            },
+            {
+              "icon": "security_icon.png",
+              "title": "Security",
+              "subtitle": "Protect your events with enterprise-grade security."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "submenus": [
+        {
+          "new": [
+            {
+              "title": "Monthly Product Update",
+              "subtitle": "Read about Hopin product updates."
+            }
+          ],
+          "products": [
+            {
+              "icon": "virtual_venue_icon.png",
+              "title": "Virtual Menu",
+              "subtitle": "Create incredible experiences for your digital audience."
+            },
+            {
+              "icon": "studio_icon.png",
+              "title": "Studio",
+              "subtitle": "Produce professional, high-quality streams with ease."
+            },
+            {
+              "icon": "event_marketing_icon.png",
+              "title": "Event marketing Menu",
+              "subtitle": "Promote beautiful landing pages that drive registrations."
+            },
+            {
+              "icon": "onsite_icon.png",
+              "title": "Onsite",
+              "subtitle": "Manage in-person attendee and exhibitor engagement."
+            }
+          ],
+          "platforms": [
+            {
+              "icon": "integrations_icon.png",
+              "title": "Integrations",
+              "subtitle": "Connect Hopin with your favorite event apps and services."
+            },
+            {
+              "icon": "security_icon.png",
+              "title": "Security",
+              "subtitle": "Protect your events with enterprise-grade security."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

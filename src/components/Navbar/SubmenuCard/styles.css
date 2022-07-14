@@ -1,0 +1,37 @@
+.submenucard {
+  margin-bottom: 5px;
+  padding: 24px;
+  border: 1px solid #f1f2f5;
+  border-radius: 4px;
+  color: #2c3242;
+  font-size: 12px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.submenucard:hover {
+  background: #f3f3f3;
+}
+.submenucard .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.submenucard .icon img {
+  width: 100%;
+  height: auto;
+}
+.submenucard__title {
+  margin-top: 0;
+  margin-bottom: 4px;
+  color: #1b1f29;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.submenucard__subtitles {
+  color: #2c3242;
+  font-size: 12px;
+  line-height: 1.5;
+}

@@ -1,0 +1,150 @@
+.main__nav {
+  background: transparent;
+  transition: all 0.15s ease-in;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  z-index: 1600;
+}
+
+.nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.nav__menus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__menus ul.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__menus ul.menu li a {
+  color: rgba(0, 0, 3, 0.8);
+  transition: 0.5s;
+  z-index: 10;
+  margin-right: 16px;
+  margin-bottom: 0;
+  margin-left: 16px;
+  padding: 0;
+  padding-bottom: 5px;
+  color: #fff;
+  line-height: 1.8em;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  display: flex;
+  align-items: center;
+}
+
+.nav__menus ul.menu li a:hover {
+  transition: all 0.5s;
+  border-bottom: 2px solid #fff;
+}
+.nav__menus ul.menu li a svg {
+  font-size: 22px;
+}
+.nav__menus ul.menu li:hover svg {
+  transform: rotate(180deg);
+}
+.nav__menus .menu2 li:last-child a {
+  border: 2px solid #fff;
+  padding: 14px 30px;
+}
+.nav__menus .menu2 li:last-child a:hover {
+  color: #3898ec;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.toggle__button {
+  display: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.nav__menus .menu .submenu {
+  display: none;
+  position: absolute;
+  z-index: 997;
+  right: -9rem;
+  left: -9rem;
+  /* top: 0; */
+  z-index: 997;
+}
+.nav__menus .menu .submenu .dropdown {
+  background: #fff;
+  /* margin-top: 84px; */
+  margin-top: 24px;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__menus .menu .submenu .dropdown .card_content:first-child {
+  border-right: 1px solid #f1f2f5;
+}
+.nav__menus .menu .submenu .dropdown .card_content {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.nav__menus .menu .submenu .dropdown .submenu-title {
+  margin-bottom: 16px;
+  color: #757a8a;
+  font-size: 12px;
+  line-height: 1.333;
+  font-weight: 500;
+}
+
+.nav__menus .menu .submenu .dropdown .dropdown-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav__menus .menu .submenu .dropdown .dropdown-menu.products-submenu {
+  flex-direction: column;
+}
+.nav__menus .menu .submenu .dropdown .dropdown-menu.products-submenu li {
+  width: 100%;
+}
+.nav__menus
+  .menu
+  .submenu
+  .dropdown
+  .dropdown-menu.products-submenu
+  .submenucard {
+  border: none;
+}
+
+.nav__menus .menu li:hover .submenu {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .toggle__button {
+    display: block;
+  }
+  .nav__menus:not(.mobile_menu) {
+    display: none;
+  }
+
+  .nav__menus .mobile_menu {
+    background: #fff;
+    color: #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+  }
+}

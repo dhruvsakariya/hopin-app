@@ -1,0 +1,141 @@
+.header {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #111217;
+  background-color: #010101;
+}
+.nav_section {
+  width: 100%;
+}
+.header__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  flex-direction: column;
+  position: relative;
+  padding-right: 50%;
+}
+
+.header__content h1 {
+  font-size: 50px;
+  line-height: 58px;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.header__content p {
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 48px;
+  color: #fff;
+}
+
+.header__image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  top: 80px;
+  z-index: 1;
+}
+
+.header__image img {
+  width: 50%;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.header__content .brand_icons {
+  display: flex;
+  margin-top: 74px;
+  margin-bottom: 0;
+  padding-left: 0;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  grid-column-gap: 12px;
+  opacity: 1;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header__content .brand_icons li {
+  margin-bottom: 32px;
+  width: 22%;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.header__content .brand_icons li img {
+  width: 100%;
+}
+
+.header__content .brand_icons li .glassdoor {
+  width: 75%;
+}
+
+.header__content .btn_meet {
+  color: white;
+  background-color: rgb(13, 164, 154);
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: all 0.15s ease-in;
+  text-align: center;
+  font-size: 1rem;
+  z-index: 2;
+  outline: none;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 100%;
+  }
+  .header__content {
+    padding-right: 0;
+    padding-top: 20px;
+  }
+  .header__content h1,
+  .header__content p {
+    text-align: center;
+  }
+  .header__image {
+    position: initial;
+    order: 1;
+    margin-top: 20px;
+  }
+  .header__image img {
+    width: 100%;
+  }
+  .header__content .brand_icons {
+    order: 2;
+    justify-content: space-around;
+  }
+  .header__content .brand_icons li {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .header__content .btn_meet {
+    margin: 0 auto;
+  }
+}
