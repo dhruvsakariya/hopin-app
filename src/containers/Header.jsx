@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { FiMessageSquare } from "react-icons/fi";
+// FiMessageSquare
 import "../styles/header.css";
 
 const brandIcons = [
@@ -43,6 +45,10 @@ const Header = () => {
         <div className="header__image">
           <img src="/assets/header_img.jpg" alt="header image" />
         </div>
+      </div>
+
+      <div className="chat">
+        <FiMessageSquare className="chat_box" />
       </div>
     </div>
   );
