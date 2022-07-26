@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import "../styles/dashboard.css";
-import ProductCard from "../components/ProductCard";
+  import ProductCard from "../components/ProductCard";
 
 const products = [
   {

@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import { CgArrowRight } from "react-icons/cg";
 
+
 const ProductCard = ({ image, title, subtitle, linkText }) => {
   return (
     <a href="/" className="product-item">
